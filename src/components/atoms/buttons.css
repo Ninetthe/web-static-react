@@ -1,0 +1,11 @@
+
+buttons {
+    color: white;
+    font-family: italic;
+    font-weight: bolder;
+    background-color: #fc6063;
+    border: 2px solid #fc6063;
+    border-radius:15px;
+    padding: 7px 30px;
+    margin: 5px 5px;
+}
