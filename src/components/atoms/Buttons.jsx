@@ -1,12 +1,12 @@
 
 import './buttons.css'
 
-function Buttons({ buttonDownload }){
+function Buttons( {props}){
     return(
         <>
-        <buttons className="dowloands">
-            {buttonDownload}
-        </buttons>
+            <buttons className={props.buttonType}>
+                {props.children}
+            </buttons>
         
         
         </>

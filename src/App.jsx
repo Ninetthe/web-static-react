@@ -1,10 +1,11 @@
-import { useState } from 'react'
-
-
-import './App.css'
-import Buttons from './components/atoms/Buttons';
-import Navbar from './components/atoms/Navbar';
-import Router from './configurations/Router';
+import './App.css';
+import Navbar from './components/Navbar';
+import Home from './pages/Home';
+import Features from "./pages/Features";
+import Description from './pages/Description';
+import Extra from "./pages/Extra";
+import Screens from "./pages/Screens"
+import { Routes, Route } from 'react-router-dom';
 
 
 
@@ -12,12 +13,18 @@ function App() {
 
   return (
     <>
-    <Router>
+        <Navbar/>
+            <Routes>
+                
+                <Route path='/' element={<Home/>} />
+                <Route path='/description' element={<Description/>} />
+                <Route path='/features' element={<Features/>} />
+                <Route path='/screens' element={<Screens/>} />
+                <Route path='/extra' element={<Extra/>} />
+            </Routes>
 
-    </Router>
-    <Buttons buttonDownload={"Hola"}></Buttons>
-    <Navbar></Navbar>
-    
+
+
 
     </>
   )
