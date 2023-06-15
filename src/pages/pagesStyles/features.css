@@ -1,0 +1,116 @@
+#titulo_special_feautures {
+    background-color: #f3fafb;
+    font-family: italic;
+    font-size: 45px;
+    text-align: center;
+    padding: 15px 0px;
+}
+.testimonials {
+    margin: auto;
+    padding: 15px 80px;
+    background-color: #f3fafb;
+}
+.testimonials h3 {
+    color: #444444;
+    text-align: center;
+    padding: 10px 0px;
+}
+.star {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+.linea_comentario_uno {
+    display: flex;
+    justify-content: space-around;
+    font-family: italic;
+}
+.linea_comentario_uno p {
+    padding: 0;
+    text-align: center;
+    margin: 0px 0px 30px 0px;
+}
+.logo_testimonials {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px;
+    background-color: white;
+}
+.logo_testimonials img {
+    height: 25px;
+    margin: 10px;
+}
+.star_dos {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+.linea_comentario_dos {
+    display: flex;
+    justify-content: space-around;
+    font-family: italic;
+}
+.linea_comentario_dos p {
+    padding: 0;
+    text-align: center;
+    margin: 0px 0px 30px 0px;
+}
+.icons_general {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+.icons_general li {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+.icons_general li p {
+    text-align: center;
+    padding: 0;
+}
+.list_grup {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: italic;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.lis_label {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: italic;
+    font-size: 15px;
+    font-weight: bold;
+}
+.lis_settings {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: italic;
+    font-size: 15px;
+    font-weight: bold;
+}
+.lis_balloon {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: italic;
+    font-size: 15px;
+    font-weight: bold;
+}
+.lis_space {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: italic;
+    font-size: 15px;
+    font-weight: bold;
+}

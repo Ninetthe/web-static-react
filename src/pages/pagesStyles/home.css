@@ -1,0 +1,179 @@
+#page_main {
+    display: flex;
+    margin: auto;
+    padding: 0px 80px;
+    align-items: center;   
+    justify-content: space-between;
+    background-color: #f3fafb;
+    padding-top: 110px;
+}
+.decorative_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0px 0px 0px;
+}
+.diamond_main {
+    width: 15px;
+    height: 15px;
+}
+.circule_yellow_main {
+    width: 20px;
+    height: 20px;
+}
+.presentation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+h3 {
+    font-family: italic;
+    font-size: 3em;
+    margin: 0;
+    color: #444444;
+}
+p {
+    font-family: italic;
+    font-size: 15px;
+    margin: 5px 0px 0px 0px;
+    color: #60706b;
+}
+
+.buttons_main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0px 0px 0px;
+}
+.icon_iphone_li {
+    display: flex;
+
+}
+.icon_iphone_main {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+.icon_plastore_li {
+    display: flex;
+    align-items: center;
+}
+.icon_playstore_main {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+.download_iphone {
+    color: white;
+    font-family: italic;
+    font-weight: bolder;
+    background-color: #fc6063;
+    border: 2px solid #fc6063;
+    border-radius:15px;
+    padding: 7px 30px;
+    margin: 5px 5px;
+}  
+.download_android {
+    color: white;
+    font-family: italic;
+    font-weight: bolder;
+    background-color: #fc6063;
+    border: 2px solid #fc6063;
+    border-radius:15px;
+    padding: 7px 30px;
+    margin: 5px 0px;
+} 
+.iphone_and_circule {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+}
+.circule_blue_main {
+    width: 30px;
+    height: 30px;
+
+}
+.iphone_main {
+    width: 60%;
+    height: 60%;
+    padding: 0px 100px 0px 0px;
+}
+
+.icons_generales {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+}
+.icons_generales li img {
+    margin-bottom: 10px;
+}
+.list_grup {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: italic;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.lis_label {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: italic;
+    font-size: 15px;
+    font-weight: bold;
+}
+.lis_settings {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: italic;
+    font-size: 15px;
+    font-weight: bold;
+}
+.lis_balloon {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: italic;
+    font-size: 15px;
+    font-weight: bold;
+}
+.lis_space {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: italic;
+    font-size: 15px;
+    font-weight: bold;
+}
+.icon_grup_main {
+    width: 50px;
+    height: 50px;
+}
+.icon_label_main {
+    width: 50px;
+    height: 50px;
+}
+
+.icon_settings_main {
+    width: 50px;
+    height: 50px;
+}
+.icon_balloon_main {
+    width: 50px;
+    height: 50px;
+
+}
+.icon_space_main {
+    width: 50px;
+    height: 50px;
+
+}
